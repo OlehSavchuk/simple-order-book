@@ -1,0 +1,7 @@
+add_test([=[OrderBookTest.RestingOrdersMaintainSpread]=]  [==[/Users/olehsavchuk/Documents/SWE/simple order book/lob_tests]==] [==[--gtest_filter=OrderBookTest.RestingOrdersMaintainSpread]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[OrderBookTest.RestingOrdersMaintainSpread]=]  PROPERTIES WORKING_DIRECTORY [==[/Users/olehsavchuk/Documents/SWE/simple order book]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[OrderBookTest.PriceTimePriorityAndPartialFill]=]  [==[/Users/olehsavchuk/Documents/SWE/simple order book/lob_tests]==] [==[--gtest_filter=OrderBookTest.PriceTimePriorityAndPartialFill]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[OrderBookTest.PriceTimePriorityAndPartialFill]=]  PROPERTIES WORKING_DIRECTORY [==[/Users/olehsavchuk/Documents/SWE/simple order book]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[OrderBookTest.CancelRemovesOrder]=]  [==[/Users/olehsavchuk/Documents/SWE/simple order book/lob_tests]==] [==[--gtest_filter=OrderBookTest.CancelRemovesOrder]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[OrderBookTest.CancelRemovesOrder]=]  PROPERTIES WORKING_DIRECTORY [==[/Users/olehsavchuk/Documents/SWE/simple order book]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  lob_tests_TESTS OrderBookTest.RestingOrdersMaintainSpread OrderBookTest.PriceTimePriorityAndPartialFill OrderBookTest.CancelRemovesOrder)

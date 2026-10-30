@@ -1,0 +1,21 @@
+# Build directories and CMake artifacts
+build/
+_deps/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Compiled binaries and debug symbols (macOS)
+test_lob
+lob_demo
+lob_tests
+*.o
+*.out
+*.dSYM/
+
+# macOS and IDE files
+.DS_Store
+.vscode/
+.idea/
